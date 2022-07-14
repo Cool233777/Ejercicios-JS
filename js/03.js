@@ -38,5 +38,5 @@
 // console.log(primerSymbol.valueOf())
 
 //Null, son objetos
-const descuento = null
-console.log(descuento)
+// const descuento = null
+// console.log(descuento)
