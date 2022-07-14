@@ -1,31 +1,42 @@
-// Objetos
+//Tipos de datos
 
-// Los objetos pueden contener una gran información en una sola variable, es de los temas que más se utilizan en React, veamos como crear un objeto
+//undefined
+// let cliente
+// console.log(cliente)
+// console.log(typeof cliente)
 
-const producto = {
-    nombre: 'Tablet',
-    precio: 300,
-    disponible: true
-}
+//boolean
+// const descuento = true
+// console.log(descuento)
+// console.log(typeof descuento)
 
-// Acceder a las propiedades de un objeto
-console.log(producto)
-console.log(producto.nombre)
-console.log(producto.precio)
-console.log(producto.disponible)
+//number
+// const n1 = 20.20
+// const n2 = 30
+// const n3 = -100
 
-// Destructuring de Objetos
-const { nombre, precio, disponible } = producto
+// console.log(typeof n1)
+// console.log(typeof n2)
+// console.log(typeof n3)
 
-console.log(nombre)
-console.log(precio)
-console.log(disponible)
+//string
+// const alumno = "Cris"
+// let producto = 'monitor 20 pulgas'
+// console.log(typeof alumno)
 
-// Object Literal enhacement...
-const autenticado = true
-const usuario = 'Juan'
+//BigInt
+// const numeroGrande = BigInt(1239817329801723489123470911231)
+// console.log(typeof numeroGrande)
+// const numero1 = 10
+// const numero2 = 20
+// console.log(numero1 + Number(numeroGrande))//usamos la cohesion, es como el convert.to de C#
 
-const nuevoObjeto = {
-    autenticado: autenticado,
-    usuario: usuario
-}
+//symbol, son unicos
+// const primerSymbol = Symbol(30)
+// const segundoSymbol = Symbol(30)
+// console.log(primerSymbol === segundoSymbol)// retorna false porque no hay simbolos iguales
+// console.log(primerSymbol.valueOf())
+
+//Null, son objetos
+const descuento = null
+console.log(descuento)
